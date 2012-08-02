@@ -207,6 +207,10 @@
     push word [0x10]
     insw 
     insd 
+    fincstp
+    fldpi
+    fnclex
+    fxtract
     fnstsw ax
     fucomip st0, st1
     fcomip st0, st7
